@@ -6,7 +6,8 @@ body {
     font-family: "Roboto", sans-serif;
     min-height: 100%;
     margin: 0;
-    left: 0;           
+    left: 0;
+    width: 100vw;
 }
 header{
     background-color: #00796B;
@@ -14,14 +15,17 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+    width: 100vw;
 }
 
 .logo{
+    max-width: 100%;
     padding-left: 41px;
 }
 
 ul{
-   margin-right: 50px;
+    padding: 0;
+    margin-right: 50px;
 }
 
 header ul li{
@@ -39,22 +43,31 @@ header nav ul a{
 }
 
 
-.container {
+.container{
+    min-height: 85vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 85vh;
-    width: 100vh;
+}
+
+.imagem_inicial img{
+    max-width: 100%;
+}
+
+.conteudo_principal{
+    max-width: 100%;
 }
 
 .container h1{
+    max-width: 100%;
     font-size: 40px;
     color: #009688;
 }
 
-.container p {
+.container article p {
+    max-width: 100%;
     width: 501px;
-    height: 160px;
     font-size: 20px;
     line-height: 23px;
     color: #9B9B9B;
@@ -71,37 +84,88 @@ footer{
     background-color: #c4c4c4;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
+@media (max-width: 530px){
+    p{
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    h1{
+        text-align: center;
+    }
+}
+
+
+
 
 /* div.copyright{
     align-content: flex-end;
 } */
 
+/* SOBRE */
 
-
-/* PAGINA SOBRE */
-section.conteudo_sobre{
+.container_sobre{
+    min-height: 50vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    /* align-items: center; */
 }
 
-
-
-h1.tit_sobre{
-    font-size: 60px;
+.container_sobre h1{
+    width: 191px;
+    max-width: 100%;
+    font-size: 40px;
     color: #00796B;
-    align-self: flex-end;
+    font-weight: 900;
 }
 
-article.sobre{
-    width: 602px;
-    height: 400px;
+.container_sobre article p, .sobre_lista{
+    max-width: 100%;
+    width: 501px;
+    font-size: 20px;
+    line-height: 23px;
     color: #9B9B9B;
 }
 
-
-
-article.sobre p{
-    font-size: 20px;
-    
+.imagem_sobre{
+    width: 575px;
+    height: 410px;
+    margin-top: 80px;
 }
+
+.subtit_sobre{
+    color: #00796B; 
+}
+
+.subtit_sobre.center{
+    color: #00796B; 
+    text-align: center;
+}
+
+.sobre_video{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+@media (max-width: 615px){
+    header nav ul a li{
+        font-size: .75em;
+    }
+}
+
+.tres_paragrafos_sobre p{
+    color: #9B9B9B;
+    display: flex;
+    text-align: center;
+    width: 58vw;
+    margin-left: 21vw;
+    margin-right: 21vw;
+    margin-bottom: 74px;
+}
+
