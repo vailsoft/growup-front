@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box; /*Inclui o margin e padding no calculo do tamanho*/
+}
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100%;
+    margin: 0;
+    left: 0;           
+}
+header{
+    background-color: #00796B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo{
+    padding-left: 41px;
+}
+
+ul{
+   margin-right: 50px;
+}
+
+header ul li{
+    font-size: 18px;
+    display: inline;
+    list-style: none;
+    width: 56px;
+    color: #fff;
+    padding-left: 33px;  
+    font-weight: 400;
+}
+
+header nav ul a{
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100vh;
+}
+
+.container h1{
+    font-size: 40px;
+    color: #009688;
+}
+
+.container p {
+    width: 501px;
+    height: 160px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #9B9B9B;
+}
+
+footer{
+    /* position: absolute; */
+    margin: 0px;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 5vh;
+    color: #ffffff;
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: center;
+}
+
+/* div.copyright{
+    align-content: flex-end;
+} */
+
+
+
+/* PAGINA SOBRE */
+section.conteudo_sobre{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+h1.tit_sobre{
+    font-size: 60px;
+    color: #00796B;
+    align-self: flex-end;
+}
+
+article.sobre{
+    width: 602px;
+    height: 400px;
+    color: #9B9B9B;
+}
+
+
+
+article.sobre p{
+    font-size: 20px;
+    
+}
