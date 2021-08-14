@@ -227,3 +227,97 @@ footer{
 .subtit_servicos{
     margin-bottom: 0;
 }
+
+
+/*CONTATO*/
+
+.tit_contato{
+    max-width: 100%;
+    width: 182px;
+    height: 87px;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+
+.container_contato{
+    max-width: 100%;
+    height: 85vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+article.map_contato{
+    max-width: 100%;
+    width: 512px;
+}
+article.conteudo_contato{
+    max-width: 100%;
+    width: 538px;
+    margin-top: 40px;
+    
+}
+
+
+
+
+article.conteudo_contato input, 
+article.conteudo_contato textarea, label {
+    max-width: 100%;
+    width: 538px;
+}
+
+
+
+
+.map_contato iframe{
+    max-width: 100%;
+    
+
+}
+
+
+.container_contato .articles{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tit_contato{
+    max-width: 100%;
+    color: #00796B; 
+    margin-left: 5vw;
+}
+
+@media (max-width: 580px){
+    section.container_contato,
+    article.conteudo_contato{
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+article.map_contato p,
+label {
+    color:#9B9B9B
+}
+
+.container_contato input, textarea{
+    margin-bottom: 19px;
+}
+
+article.map_contato p a{
+    max-width: 100%;
+    color: #00796B;
+    text-decoration: none;
+}
+
+button{
+    background-color: #009688;
+    width: 175px;
+    height: 33px;
+    color: #fff;
+    border: none;
+}

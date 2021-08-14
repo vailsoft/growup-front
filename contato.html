@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Grow Up</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo Grow Up">
+        </div>
+
+        <nav>
+            <ul>
+                <a href="sobre.html">
+                    <li>SOBRE</li>
+                </a>
+                <a href="servicos.html">
+                    <li>SERVIÇOS</li>
+                </a>
+                <a href="contato.html">
+                    <li>CONTATO</li>
+                </a>
+            </ul>
+        </nav>
+
+    </header>
+        <h1 class="tit_contato">
+            CONTATO
+        </h1>
+        <section class="container_contato">
+                <article class="conteudo_contato">
+                    <form>
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" class="name">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="message" id="message" style="resize: none"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </article>
+
+                <article class="map_contato">
+                    <p>
+                        Email: <a href="mailto:contato@growup.com">contato@growup.com</a>
+                    </p>
+                    <p>
+                        Telefone: <a href="tel:+551198984242">(11) 9898-4242</a>
+                    </p>
+                    <iframe width="512" height="216" id="map_contato" src="https://maps.google.com/maps?q=museum%20prudential%20center&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </article>
+        </section>
+    <footer>
+
+        <p>copyright - Grow Up</p>
+
+    </footer>
+
 </body>
+
 </html>
