@@ -142,7 +142,6 @@ footer{
 }
 
 .subtit_sobre.center{
-    color: #00796B; 
     text-align: center;
 }
 
@@ -169,3 +168,62 @@ footer{
     margin-bottom: 74px;
 }
 
+/* SERVICOS*/
+
+
+.container_servicos{
+    min-height: 45vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container_servicos.com_titulo{
+    display: flex;
+    flex-direction: column;
+}
+
+.container_servicos.com_titulo .articles{
+    display: flex;
+    flex-direction: row;
+}
+
+.container_servicos h1{
+    width: 191px;
+    max-width: 100%;
+    font-size: 40px;
+    color: #00796B;
+    font-weight: 900;
+}
+
+.container_servicos h2{
+    width: 562px;
+    max-width: 100%;
+    /* font-size: 40px; */
+    color: #00796B;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.container_servicos article p{
+    max-width: 100%;
+    width: 562px;
+    height: 216px;
+    font-size: 24px;
+    line-height: 23px;
+    color: #9B9B9B;
+    margin: 0;
+}
+
+.imagem_servicos img{
+    max-width: 100%;
+}
+
+.tit_servicos{
+    margin: 0;
+}
+
+.subtit_servicos{
+    margin-bottom: 0;
+}
